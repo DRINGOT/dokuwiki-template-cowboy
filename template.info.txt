@@ -1,7 +1,7 @@
-base     starter
-author   Anika Henke
-email    anika@selfthinker.org
-date     2013-04-01
-name     Starter Template
-desc     The template that gets you started
-url      http://www.dokuwiki.org/template:starter
+base     cowboy
+author   Dennis Plöger
+email    develop@dieploegers.de
+date     2013-10-31
+name     Cowboy
+desc     A leather/cowboy theme
+url      http://www.dokuwiki.org/template:cowboy
