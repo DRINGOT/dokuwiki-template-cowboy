@@ -16,14 +16,14 @@ body {
     position: absolute;
     left: 0;
     height: 10em;
-    top: 0;
+    top: 2em;
 
 }
 
 #cowboyHeader {
 
     position: absolute;
-    top: 0;
+    top: 2em;
     height: 10em;
     display: table;
 
@@ -45,7 +45,7 @@ body {
 
 div.notify {
 
-    margin-top: 10em;
+    margin-top: 16em;
 
 }
 
@@ -61,6 +61,19 @@ div.notify {
 
 }
 
+#dokuwiki__header {
+
+    background-color: white;
+    opacity: .7;
+    padding: 1em;
+    padding-bottom: 0;
+
+}
+
+#dokuwiki__header div.breadcrumbs {
+    margin: 0;
+}
+
 #dokuwiki__header .tools {
 
     margin-bottom: 0;
@@ -69,8 +82,83 @@ div.notify {
 
 /** Menu **/
 
-#cowboyMenu {
+#cowboyMenuPanel {
 
     background-image: url(images/menu_bg.jpg);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 3em;
+    top: 12em;
+
+}
+
+#cowboyMenu {
+
+}
+
+#cowboyMenu ul {
+
+    position: relative;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    width: __site_width__;
+
+}
+
+#cowboyMenu ul li {
+
+    float: left;
+    margin: 0 2em 0 0;
+    cursor: pointer;
+
+}
+
+#cowboyMenu ul li a {
+
+    float: left;
+    color: black;
+    opacity: .5;
+    filter: Alpha(opacity=50)
+    border: 0;
+    padding: 0 2em;
+    line-height: 3em;
+    background-color: darkgrey;
+
+}
+
+#cowboyMenu ul li a:hover {
+
+    background-color: white;
+    opacity: 1;
+    filter: Alpha(opacity=100)
+
+}
+
+#cowboyMenu ul li .current a {
+
+    color: black;
+    opacity: .8;
+    filter: Alpha(opacity=80)
+
+}
+
+#cowboyMenu ul li a:hover {
+
+    text-decoration: none;
+    opacity: .7;
+    filter: Alpha(opacity=70)
+    color: black;
+
+}
+
+/** Content **/
+
+#dokuwiki__content {
+
+    opacity: .7;
+    background-color: white;
+    padding: 1em;
 
 }
