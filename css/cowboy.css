@@ -1,0 +1,76 @@
+/** Defaults **/
+
+body {
+
+    background-image: url(images/leather_bg.jpg);
+
+}
+
+/** Header **/
+
+#cowboyPanel {
+
+    background-color: saddlebrown;
+    opacity: .5;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 10em;
+    top: 0;
+
+}
+
+#cowboyHeader {
+
+    position: absolute;
+    top: 0;
+    height: 10em;
+    display: table;
+
+}
+
+#cowboyHeader #cowboyHeaderCenter {
+
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+#cowboyHeader #cowboyLogo {
+
+    font-family: nashvilleregular;
+    font-size: 8em;
+
+}
+
+div.notify {
+
+    margin-top: 10em;
+
+}
+
+.headings {
+
+    display: none;
+
+}
+
+#dokuwiki__sitetools {
+
+    display: none;
+
+}
+
+#dokuwiki__header .tools {
+
+    margin-bottom: 0;
+
+}
+
+/** Menu **/
+
+#cowboyMenu {
+
+    background-image: url(images/menu_bg.jpg);
+
+}
