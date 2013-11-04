@@ -6,6 +6,12 @@ body {
 
 }
 
+#dokuwiki__site {
+
+    padding: 0;
+
+}
+
 /** Header **/
 
 #cowboyPanel {
@@ -40,12 +46,17 @@ body {
 
     font-family: nashvilleregular;
     font-size: 8em;
+    color: black;
 
 }
 
-div.notify {
+#cowboyPanelSeam {
 
-    margin-top: 16em;
+    position: absolute;
+    left: 0;
+    top: 12em;
+    height: 1em;
+    width: 100%;
 
 }
 
@@ -63,10 +74,9 @@ div.notify {
 
 #dokuwiki__header {
 
-    background-color: white;
-    opacity: .7;
-    padding: 1em;
-    padding-bottom: 0;
+    background-color: rgba(255,255,255,0.7);
+    padding: 1em 1em 0;
+    margin: 0;
 
 }
 
@@ -84,16 +94,11 @@ div.notify {
 
 #cowboyMenuPanel {
 
-    background-image: url(images/menu_bg.jpg);
     position: absolute;
     width: 100%;
     left: 0;
     height: 3em;
-    top: 12em;
-
-}
-
-#cowboyMenu {
+    top: 14em;
 
 }
 
@@ -110,7 +115,7 @@ div.notify {
 #cowboyMenu ul li {
 
     float: left;
-    margin: 0 2em 0 0;
+    margin: 0 1em 0 0;
     cursor: pointer;
 
 }
@@ -118,47 +123,61 @@ div.notify {
 #cowboyMenu ul li a {
 
     float: left;
-    color: black;
-    opacity: .5;
-    filter: Alpha(opacity=50)
+    color: #dcdcdc;
     border: 0;
     padding: 0 2em;
     line-height: 3em;
-    background-color: darkgrey;
+    background-color: lightslategray;
+
+}
+
+#cowboyMenu ul li .current a {
+
+    color: lightslategray;
+    background-color: #dcdcdc;
 
 }
 
 #cowboyMenu ul li a:hover {
 
     background-color: white;
-    opacity: 1;
-    filter: Alpha(opacity=100)
-
-}
-
-#cowboyMenu ul li .current a {
-
-    color: black;
-    opacity: .8;
-    filter: Alpha(opacity=80)
-
-}
-
-#cowboyMenu ul li a:hover {
-
     text-decoration: none;
-    opacity: .7;
-    filter: Alpha(opacity=70)
-    color: black;
+    color: lightslategray;
+
+}
+
+#cowboyMenuSeam {
+
+    margin-top: 1em;
+    width: 100%;
 
 }
 
 /** Content **/
+
+.cowboySeam {
+
+    background: url(images/menu_bg.png) repeat-x;
+    height: 0.5em;
+
+}
+
+#dokuwiki__top {
+
+    padding-top: 16em;
+
+}
 
 #dokuwiki__content {
 
     opacity: .7;
     background-color: white;
     padding: 1em;
+
+}
+
+div.error, div.info, div.success, div.notify {
+
+    margin: 1em 0 0;
 
 }
