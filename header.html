@@ -2,7 +2,9 @@
 
 <div id="cowboyHeader">
     <div id="cowboyHeaderCenter">
-        <span id="cowboyLogo">Cowboy Template</span>
+        <span id="cowboyLogo">
+            <?php global $conf; print strip_tags($conf['title']); ?>
+        </span>
     </div>
 </div>
 
