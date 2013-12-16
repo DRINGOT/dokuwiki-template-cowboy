@@ -3,6 +3,7 @@
 body {
 
     background-image: url(images/wood_bg.jpg);
+    font-family: "Times New Roman", serif;
 
 }
 
@@ -44,7 +45,7 @@ body {
 
 #cowboyHeader #cowboyLogo {
 
-    font-family: nashvilleregular;
+    font-family: "nashvilleregular", "Nashville", serif;
     font-size: 8em;
     color: white;
 
