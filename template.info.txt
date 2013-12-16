@@ -3,5 +3,5 @@ author   Dennis Plöger
 email    develop@dieploegers.de
 date     2013-10-31
 name     Cowboy
-desc     A leather/cowboy theme
+desc     A cowboy/western-style theme
 url      http://www.dokuwiki.org/template:cowboy
