@@ -1,3 +1,20 @@
+<div id="cowboyPhoto">
+    <?php
+
+    $header_image = tpl_getConf('headerImg');
+
+    if ($header_image == "") {
+
+        $header_image = DOKU_TPL."/images/cowboy.jpg";
+
+    }
+
+    ?>
+
+    <img src="<?php print $header_image; ?>">
+
+</div>
+
 <div id="cowboyPanel"></div>
 
 <div id="cowboyHeader">
